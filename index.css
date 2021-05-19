@@ -1,0 +1,50 @@
+.parent {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+.firstChild {
+  align-self: center;
+  border: none;
+  height: 200px;
+  width: 200px;
+  border-radius: 50px;
+  background-image: linear-gradient(to top right, orange, purple);
+  opacity: 70%;
+  display: flex;
+  justify-content: center;
+}
+.secondChild {
+  align-self: center;
+  border: 10px solid white;
+  height: 130px;
+  width: 130px;
+  border-radius: 30px;
+  background-image: linear-gradient(to top right, orange, purple);
+  opacity: 70%;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: row-reverse;
+}
+.sideDot {
+  height: 1px;
+  width: 1px;
+  border-radius: 50%;
+  border: 10px solid white;
+  float: right;
+  margin-top: 8px;
+  margin-right: 8px;
+  /* margin-left: 30px; */
+}
+.thirdChild {
+  clear: both;
+  align-self: center;
+  border: 15px solid white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-image: linear-gradient(to top right, orange, purple);
+  opacity: 70%;
+  /* display: flex; */
+}
